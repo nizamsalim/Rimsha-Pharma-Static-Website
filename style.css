@@ -300,6 +300,8 @@ address {
 
 p {
   margin-top: 0;
+  color: #000;
+  font-size: 1.5rem;
 }
 
 form input,
@@ -1589,8 +1591,10 @@ form input[type="reset"]:focus {
  * Header Styles
  */
 .site-header .top-header {
-  padding: 15px 0;
+  padding: 10px 0;
   /* background-color: red; */
+  display: flex;
+  align-items: center;
   
 }
 .site-header .bottom-header {
@@ -1606,7 +1610,7 @@ form input[type="reset"]:focus {
   height: 0;
 }
 @media screen and (max-width: 640px) {
-  .site-header .bottom-header .social-links {
+  .site-header .top-header .social-links {
     display: none;
   }
 }
@@ -1619,10 +1623,13 @@ form input[type="reset"]:focus {
   display: flex;
   /* vertical-align: baseline; */
   justify-content: center;
+  opacity: 1;
   
 }
 #branding .logo {
   margin-right: 10px;
+  width: 210px;
+  height: 150;
 }
 #branding .site-title {
   margin-bottom: 0;
@@ -1907,6 +1914,10 @@ form input[type="reset"]:focus {
   margin-bottom: 20px;
   color: #0f75bd;
   font-weight: 400;
+}
+
+.feature p{
+  line-height: 2.5rem;
 }
 
 .text-center {
@@ -2396,4 +2407,37 @@ form input[type="reset"]:focus {
 .description{
   font-size: 1.2rem;
   margin-left: 2.5rem;
+  color: #fff;
+}
+
+.top-header {
+  background: linear-gradient(160deg, #26ad45, #3ca7c9, #cf7e38);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 9s ease infinite;
+  -moz-animation: AnimationName 9s ease infinite;
+  animation: AnimationName 9s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:84% 0%}
+  50%{background-position:17% 100%}
+  100%{background-position:84% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:84% 0%}
+  50%{background-position:17% 100%}
+  100%{background-position:84% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:84% 0%}
+  50%{background-position:17% 100%}
+  100%{background-position:84% 0%}
+}
+
+
+.rimsha-title{
+  font-weight: 600;
+  color: #0B3D9D;
+
 }
