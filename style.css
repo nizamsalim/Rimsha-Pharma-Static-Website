@@ -1631,9 +1631,9 @@ form input[type="reset"]:focus {
 #branding .logo {
   margin-right: 10px;
   
-  width: 210px;
-  height: 150px;
-  border-radius: 10px;
+  width: 140px;
+  height: 100px;
+  border-radius: 8px;
 }
 
 @media screen and (max-width:640px){
@@ -2420,8 +2420,8 @@ form input[type="reset"]:focus {
 }
 
 .description{
-  font-size: 1.2rem;
-  margin-left: 2.5rem;
+  font-size: 1.1rem;
+  margin-left: 0.8rem;
   color: #fff;
 }
 
@@ -2509,6 +2509,8 @@ form input[type="reset"]:focus {
 .gallery-image{
   width: 250px;
   height: 250px;
+  border-radius: 10px;
+  border: 2px solid #0B3D9D;
   
 }
 
